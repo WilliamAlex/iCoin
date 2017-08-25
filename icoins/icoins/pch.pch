@@ -1,0 +1,53 @@
+//
+//  pch.pch
+//  icoins
+//
+//  Created by williamalex on 2017/8/15.
+//  Copyright © 2017年 srgbank. All rights reserved.
+//
+
+#ifndef pch_pch
+#define pch_pch
+
+/***********导入文件**********/
+#import <Masonry.h>
+#import <objc/runtime.h>
+
+// 分类
+#import "UIImage+Image.h"       // UIImage分类
+#import "UIView+Frame.h"        // 矢量分类
+#import "UIColor+QJCustomColor.h"   // 颜色分类
+#import "UIBarButtonItem+NavExtension.h" // 导航分类
+#import "UILabel+labelExtension.h"        // UILabel分类
+#import "UIButton+buttonExtension.h"        // 按钮分类
+
+
+
+// 工具类
+#import "ABSlideMenuViewController.h"   // 侧滑菜单
+#import "ABCoinGroup.h"     // 折叠分组
+#import "TableViewCellItem.h"                   // tableViewCell的样式工具类
+#import "TableViewCellGroup.h"
+#import "TableViewCellItemArrow.h"
+#import "TableViewCellItemLabel.h"
+#import "TableViewCellItemSwitch.h"
+#import "QJSettingTableViewController.h"        // 通过继承方式
+#import "ABTitleDisplayViewController.h"        // 分段选择封装类
+#import "UIImage+WGImageHelper.h"               // 可以随意设置导航条
+#import "WGNavigationBar.h"
+#import "ABNewPageFlowView.h"                   // 卡片类
+#import "ABBannerSubView.h"
+#import "HYActivityView.h"                      // 分享View
+
+
+// 全局
+#import "macro.h"               // 宏
+#import "const.h"               // 全局常量
+#import "ABGlobalMethods.h"      // 全局方法
+
+
+
+
+
+
+#endif /* pch_pch */
